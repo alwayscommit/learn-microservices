@@ -28,12 +28,12 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public void updateCustomer(UUID customerId, CustomerDto customerDto) {
         //todo impl
-        log.debug("Updating....");
+        log.info("Updating....");
     }
 
     @Override
     public void deleteById(UUID customerId) {
-        log.debug("Deleting.... ");
+        log.info("Deleting.... ");
     }
 }
 
